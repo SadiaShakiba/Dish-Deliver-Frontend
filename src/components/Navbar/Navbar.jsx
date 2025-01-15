@@ -31,9 +31,11 @@ export const Navbar = () => {
           </IconButton>
         </div>
         <div className="">
-          <Badge color="secondary" badgeContent={2}>
-            <FavoriteBorderIcon sx={{ fontSize: "1.5rem" }} color="white" />
-          </Badge>
+          <IconButton>
+            <Badge color="secondary" badgeContent={2}>
+              <FavoriteBorderIcon sx={{ fontSize: "1.5rem" }} color="white" />
+            </Badge>
+          </IconButton>
         </div>
         <div className="">
           <IconButton>
